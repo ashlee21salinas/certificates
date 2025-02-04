@@ -1,0 +1,55 @@
+.top-left {
+    height: 35vh;
+    width: 20vw;
+    margin-bottom: 19%;
+}
+
+.top-right {
+    height: 35vh;
+    width: 20vw;
+    margin-bottom: 19%;
+    margin-left: 59%;
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -33%;
+}
+
+h1 {
+    font-size: 7rem;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-top: -3%;
+}
+
+.line {
+    font-size: 2rem;
+    margin-top: 5%;
+}
+
+.name-line {
+    color: red;
+    width: 35vw;
+    margin-top: 8%
+}
+
+.line2 {
+    font-size: 1.5rem;
+    margin-top: -0.1%;
+}
+
+.recieved-from {
+   color: black;
+    width: 20vw;
+   margin-top: 5%;
+}
+
+.line3 {
+    font-size: 1.5rem;
+    margin-top: -0.2%;
+}
