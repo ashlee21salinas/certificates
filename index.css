@@ -29,13 +29,13 @@ h2 {
 
 .line {
     font-size: 1.5rem;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .name-line {
     color: red;
     width: 45vw;
-    margin-top: -3%
+    margin-top: 2%
 }
 
 .line2 {
@@ -82,7 +82,6 @@ img {
     height: 23vh;
     width: 15vw;
     margin-left: 69%;
-    
 }
 
 #name1 {
@@ -93,3 +92,80 @@ img {
     margin-left: 5%;
     font-size: 5rem;
 }
+
+#name2 {
+    border: none;
+    height: 5vh;
+    width: 20vw;
+    text-align: center;
+    margin-left: 15%;
+    font-size: 3rem;
+}
+
+
+/* start of second page */
+
+.vl {
+    border-left: 10vw solid #730202;
+    height: 49vw;
+    margin-left: 20%;
+  }
+
+  .ribbon {
+    height: 90vh;
+    margin-top: -50%;
+    margin-left: 5%;
+  }
+
+  img {
+    height: 2vh;
+  }
+
+  .row4 {
+    display: flex;
+    flex-direction: row;
+    margin-top: -50%;
+    margin-left: 60%;
+    justify-content: space-evenly;
+  }
+  
+  .row5 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-left: 60%;
+    justify-content: space-evenly;
+   
+  }
+
+  .column {
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 3%;
+  }
+
+  .row6 {
+    margin-top: 6%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #c4 {
+    margin-left: 3%;
+  }
+  #c3 {
+    margin-left: 3%;
+  }
+  #c2 {
+    margin-left: 3%;
+  }
+  #c1 {
+    margin-left: 3%;
+  }
+
+  .row7 {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+  }
+
