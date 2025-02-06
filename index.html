@@ -9,35 +9,35 @@
 </head>
 
 <body>
-    <img class="top-left" src="/img/left-corner.png" alt="top left border">
-    <img class="top-right" src="/img/top-right.png" alt="top right border">
-
-    <section class="flex-wrapper">
-        <h1>CERTIFICATE</h1>
-        <h2>OF APPREACIATION</h2>
-
-        <p class="line">This certificate proudly goes to</p>
-
-        <div class="name-line">
-            <input id="name1" name="name" placeholder="Enter Name">
-            <hr>
+    <div class="container">
+        <div class="pages">
+            <div class="page one">
+                <h1>Page 1</h1>
+                <div>
+                    <button onclick="slide('Next')">Next</button>
+                    
+                </div>
+            </div>
+            <div class="page two">
+                <h1>Page 2</h1>
+                <div>
+                    <button onclick="slide('prev')">prev</button>
+                    <button onclick="slide('Next')">Next</button>
+                </div>
+            </div>
+            <div class="page three">
+                <h1>Page 3</h1>
+                <div>
+                    <button onclick="slide('prev')">prev</button>
+                    <button onclick="slide('Next')">Next</button>
+                </div>
+            </div>
+           
         </div>
-
-        <p class="line2">This certicate is given for your amazing dedication</p>
-
-        <div class="recieved-from">
-            <input id="name2" name="name" placeholder="Enter Name">
-            <hr>
-        </div>
-
-        <p class="line3">Received from</p>
-    </section>
-
-    <img class="bottom-left" src="/img/bottom-left.png" alt="image of bottom left border">
-    <img class="bottom" src="/img/bottom-right.png" alt="image of bottom right border">
-   
+    </div>
 
 
+    <script src="script.js"></script>
 </body>
 
 </html>
