@@ -12,27 +12,53 @@
     <div class="container">
         <div class="pages">
             <div class="page one">
-                <h1>Page 1</h1>
+                <section class="row">
+                    <img class="top-left" src="/img/left-corner.png" alt="image of top left corner">
+                    <img class="top-right" src="/img/top-right.png" alt="image of right corner ">
+                </section>
+
+                <section class="column">
+                    <h1>CERTIFICATE</h1>
+                    <h2>OF APPRECIATION</h2>
+                      
+                     <p class="text">This certificate goes to</p>
+                
+                        <div class="line1">
+                            <input id="textbox1" type="name" placeholder="Insert Name" >
+                            <hr>
+                        </div>
+                        <p>This certificate is given for your amazing dedication</p>
+    
+                        <div class="line2">
+                            <input id="textbox2" type="name" placeholder="Insert Name" >
+                            <hr>
+                        </div>
+                        <p>Received From</p>
+                </section>
                 <div>
-                    <button onclick="slide('Next')">Next</button>
-                    
+                    <button class="continue-right" onclick="slide('next')"><img class="img-right" src="/img/Chevron right.png" alt="continue right"></button>
                 </div>
             </div>
             <div class="page two">
                 <h1>Page 2</h1>
                 <div>
-                    <button onclick="slide('prev')">prev</button>
-                    <button onclick="slide('Next')">Next</button>
+                    <button onclick="slide('prev')">Prev</button>
+                    <button onclick="slide('next')">Next</button>
                 </div>
             </div>
             <div class="page three">
                 <h1>Page 3</h1>
                 <div>
-                    <button onclick="slide('prev')">prev</button>
-                    <button onclick="slide('Next')">Next</button>
+                    <button onclick="slide('prev')">Prev</button>
+                    <button onclick="slide('next')">Next</button>
                 </div>
             </div>
-           
+            <div class="page four">
+                <h1>Page 4</h1>
+                <div>
+                    <button onclick="slide('prev')">Prev</button>
+                </div>
+            </div>
         </div>
     </div>
 
