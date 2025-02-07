@@ -5,7 +5,7 @@
 }
 
 body {
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .contianer {
@@ -44,8 +44,157 @@ body {
 
 
 /* start of page 1 */
+.one {
+  margin-top: -10%;
+}
+.fribbon {
+  height: 40vh;
+  margin-top: 75%;
+ 
+}
 
+img {
+  height: 3vh;
+}
 
+/* bottom right */
+.columnbottomleft {
+  margin-left: -90%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 8%;
+}
+.columnbottomleft2 {
+  margin-left: -82%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: -4.5%;
+}
+.columnbottomleft3 {
+  margin-left: -74%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: -4.5%;
+}
+.columnbottomleft4 {
+  margin-left: -66%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: -4.5%;
+}
+
+/* top right */
+
+.column-circle {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: -5%;
+  margin-left: 50%;
+}
+
+.column-circle2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: -4.5%;
+  margin-left: 58%;
+}
+.column-circle3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: -4.5%;
+  margin-left: 66%;
+}
+.column-circle4 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: -4.5%;
+  margin-left: 74%;
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+}
+
+h3 {
+  font-size: 6rem;
+  margin-top: -20%;
+}
+
+h4 {
+  font-size: 3rem;
+  margin-top: 3%;
+}
+
+.first-under {
+  font-size: 2rem;
+  margin-top: 2%;
+}
+
+#textbox3 {
+  margin-top: 2%;
+  height: 8vh;
+  width: 30vw;
+  text-align: center;
+  border: none;
+}
+
+.undertextbox {
+  margin-top: 1%;
+}
+
+.line4 {
+  margin-top: 10%;
+  width: 20vw;
+}
+
+#textbox4 {
+  width: 13vw;
+  text-align: center;
+  height: 5.5vh;
+  margin-left: 15%;
+  border: none;
+}
+
+.line4 p {
+  text-align: center;
+}
+.line5 {
+  margin-top: 10%;
+  width: 20vw;
+}
+
+#textbox10 {
+  width: 13vw;
+  text-align: center;
+  height: 5.5vh;
+  margin-left: 15%;
+  border: none;
+}
+
+.line5 p {
+  text-align: center;
+}
+
+.pagebottom {
+  display: flex;
+  flex-direction: column;
+  margin-left: -80%;
+}
+.pagebottom2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100%;
+  margin-top: -18%;
+}
 
 /* second page  */
 
@@ -269,4 +418,9 @@ h6 {
   margin-left: -300%;
   margin-bottom: -50%;
   background-color: transparent;
+}
+
+
+@media print {
+  
 }
